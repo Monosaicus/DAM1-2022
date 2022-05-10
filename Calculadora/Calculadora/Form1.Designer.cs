@@ -54,9 +54,6 @@
             this.Num2 = new System.Windows.Forms.Button();
             this.Num11 = new System.Windows.Forms.Button();
             this.Num0 = new System.Windows.Forms.Button();
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
             this.SuspendLayout();
             // 
@@ -64,11 +61,7 @@
             // 
             this.txtNombre1.Location = new System.Drawing.Point(149, 57);
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
             this.txtNombre1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-=======
-            this.txtNombre1.Margin = new System.Windows.Forms.Padding(4);
->>>>>>> Stashed changes
 =======
             this.txtNombre1.Margin = new System.Windows.Forms.Padding(4);
 >>>>>>> Stashed changes
@@ -81,11 +74,7 @@
             // 
             this.txtNombre2.Location = new System.Drawing.Point(149, 107);
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
             this.txtNombre2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-=======
-            this.txtNombre2.Margin = new System.Windows.Forms.Padding(4);
->>>>>>> Stashed changes
 =======
             this.txtNombre2.Margin = new System.Windows.Forms.Padding(4);
 >>>>>>> Stashed changes
@@ -118,19 +107,11 @@
             // 
             this.btnSumar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
             this.btnSumar.Location = new System.Drawing.Point(376, 71);
             this.btnSumar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSumar.Name = "btnSumar";
             this.btnSumar.Size = new System.Drawing.Size(59, 50);
             this.btnSumar.TabIndex = 4;
-=======
-            this.btnSumar.Location = new System.Drawing.Point(383, 187);
-            this.btnSumar.Margin = new System.Windows.Forms.Padding(4);
-            this.btnSumar.Name = "btnSumar";
-            this.btnSumar.Size = new System.Drawing.Size(59, 50);
-            this.btnSumar.TabIndex = 13;
->>>>>>> Stashed changes
 =======
             this.btnSumar.Location = new System.Drawing.Point(383, 187);
             this.btnSumar.Margin = new System.Windows.Forms.Padding(4);
@@ -146,19 +127,11 @@
             // 
             this.btnRestar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
             this.btnRestar.Location = new System.Drawing.Point(376, 13);
             this.btnRestar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnRestar.Name = "btnRestar";
             this.btnRestar.Size = new System.Drawing.Size(59, 50);
             this.btnRestar.TabIndex = 5;
-=======
-            this.btnRestar.Location = new System.Drawing.Point(383, 261);
-            this.btnRestar.Margin = new System.Windows.Forms.Padding(4);
-            this.btnRestar.Name = "btnRestar";
-            this.btnRestar.Size = new System.Drawing.Size(59, 50);
-            this.btnRestar.TabIndex = 14;
->>>>>>> Stashed changes
 =======
             this.btnRestar.Location = new System.Drawing.Point(383, 261);
             this.btnRestar.Margin = new System.Windows.Forms.Padding(4);
@@ -174,19 +147,11 @@
             // 
             this.btnMultiplicar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
             this.btnMultiplicar.Location = new System.Drawing.Point(376, 187);
             this.btnMultiplicar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnMultiplicar.Name = "btnMultiplicar";
             this.btnMultiplicar.Size = new System.Drawing.Size(59, 50);
             this.btnMultiplicar.TabIndex = 6;
-=======
-            this.btnMultiplicar.Location = new System.Drawing.Point(383, 337);
-            this.btnMultiplicar.Margin = new System.Windows.Forms.Padding(4);
-            this.btnMultiplicar.Name = "btnMultiplicar";
-            this.btnMultiplicar.Size = new System.Drawing.Size(59, 50);
-            this.btnMultiplicar.TabIndex = 15;
->>>>>>> Stashed changes
 =======
             this.btnMultiplicar.Location = new System.Drawing.Point(383, 337);
             this.btnMultiplicar.Margin = new System.Windows.Forms.Padding(4);
@@ -202,19 +167,11 @@
             // 
             this.btnDividir.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
             this.btnDividir.Location = new System.Drawing.Point(376, 129);
             this.btnDividir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnDividir.Name = "btnDividir";
             this.btnDividir.Size = new System.Drawing.Size(59, 50);
             this.btnDividir.TabIndex = 7;
-=======
-            this.btnDividir.Location = new System.Drawing.Point(383, 414);
-            this.btnDividir.Margin = new System.Windows.Forms.Padding(4);
-            this.btnDividir.Name = "btnDividir";
-            this.btnDividir.Size = new System.Drawing.Size(59, 50);
-            this.btnDividir.TabIndex = 16;
->>>>>>> Stashed changes
 =======
             this.btnDividir.Location = new System.Drawing.Point(383, 414);
             this.btnDividir.Margin = new System.Windows.Forms.Padding(4);
@@ -229,13 +186,8 @@
             // txtResultat
             // 
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
             this.txtResultat.Location = new System.Drawing.Point(149, 246);
             this.txtResultat.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-=======
-            this.txtResultat.Location = new System.Drawing.Point(149, 495);
-            this.txtResultat.Margin = new System.Windows.Forms.Padding(4);
->>>>>>> Stashed changes
 =======
             this.txtResultat.Location = new System.Drawing.Point(149, 495);
             this.txtResultat.Margin = new System.Windows.Forms.Padding(4);
@@ -252,11 +204,7 @@
             // 
             this.lblResultat.AutoSize = true;
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
             this.lblResultat.Location = new System.Drawing.Point(71, 246);
-=======
-            this.lblResultat.Location = new System.Drawing.Point(71, 495);
->>>>>>> Stashed changes
 =======
             this.lblResultat.Location = new System.Drawing.Point(71, 495);
 >>>>>>> Stashed changes
@@ -266,7 +214,6 @@
             this.lblResultat.TabIndex = 9;
             this.lblResultat.Text = "Resultat:";
             this.lblResultat.Click += new System.EventHandler(this.lblResultat_Click);
-<<<<<<< Updated upstream
             // 
 <<<<<<< Updated upstream
             // btnMod
@@ -291,8 +238,6 @@
             this.btnPotencia.TabIndex = 12;
             this.btnPotencia.Text = "^";
             this.btnPotencia.UseVisualStyleBackColor = true;
-=======
->>>>>>> Stashed changes
             // 
             // btnIgual
             // 
@@ -429,129 +374,16 @@
             this.Num0.Text = "0";
             this.Num0.UseVisualStyleBackColor = true;
             // 
-            // Num7
-            // 
-            this.Num7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Num7.Location = new System.Drawing.Point(74, 187);
-            this.Num7.Margin = new System.Windows.Forms.Padding(4);
-            this.Num7.Name = "Num7";
-            this.Num7.Size = new System.Drawing.Size(59, 50);
-            this.Num7.TabIndex = 3;
-            this.Num7.Text = "7";
-            this.Num7.UseVisualStyleBackColor = true;
-            // 
-            // Num8
-            // 
-            this.Num8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Num8.Location = new System.Drawing.Point(168, 187);
-            this.Num8.Margin = new System.Windows.Forms.Padding(4);
-            this.Num8.Name = "Num8";
-            this.Num8.Size = new System.Drawing.Size(59, 50);
-            this.Num8.TabIndex = 4;
-            this.Num8.Text = "8";
-            this.Num8.UseVisualStyleBackColor = true;
-            // 
-            // Num9
-            // 
-            this.Num9.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Num9.Location = new System.Drawing.Point(261, 187);
-            this.Num9.Margin = new System.Windows.Forms.Padding(4);
-            this.Num9.Name = "Num9";
-            this.Num9.Size = new System.Drawing.Size(59, 50);
-            this.Num9.TabIndex = 5;
-            this.Num9.Text = "9";
-            this.Num9.UseVisualStyleBackColor = true;
-            // 
-            // Num6
-            // 
-            this.Num6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Num6.Location = new System.Drawing.Point(261, 261);
-            this.Num6.Margin = new System.Windows.Forms.Padding(4);
-            this.Num6.Name = "Num6";
-            this.Num6.Size = new System.Drawing.Size(59, 50);
-            this.Num6.TabIndex = 8;
-            this.Num6.Text = "6";
-            this.Num6.UseVisualStyleBackColor = true;
-            // 
-            // Num5
-            // 
-            this.Num5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Num5.Location = new System.Drawing.Point(168, 261);
-            this.Num5.Margin = new System.Windows.Forms.Padding(4);
-            this.Num5.Name = "Num5";
-            this.Num5.Size = new System.Drawing.Size(59, 50);
-            this.Num5.TabIndex = 7;
-            this.Num5.Text = "5";
-            this.Num5.UseVisualStyleBackColor = true;
-            // 
-            // Num4
-            // 
-            this.Num4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Num4.Location = new System.Drawing.Point(74, 261);
-            this.Num4.Margin = new System.Windows.Forms.Padding(4);
-            this.Num4.Name = "Num4";
-            this.Num4.Size = new System.Drawing.Size(59, 50);
-            this.Num4.TabIndex = 6;
-            this.Num4.Text = "4";
-            this.Num4.UseVisualStyleBackColor = true;
-            // 
-            // Num3
-            // 
-            this.Num3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Num3.Location = new System.Drawing.Point(265, 337);
-            this.Num3.Margin = new System.Windows.Forms.Padding(4);
-            this.Num3.Name = "Num3";
-            this.Num3.Size = new System.Drawing.Size(59, 50);
-            this.Num3.TabIndex = 11;
-            this.Num3.Text = "3";
-            this.Num3.UseVisualStyleBackColor = true;
-            // 
-            // Num2
-            // 
-            this.Num2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Num2.Location = new System.Drawing.Point(172, 337);
-            this.Num2.Margin = new System.Windows.Forms.Padding(4);
-            this.Num2.Name = "Num2";
-            this.Num2.Size = new System.Drawing.Size(59, 50);
-            this.Num2.TabIndex = 10;
-            this.Num2.Text = "2";
-            this.Num2.UseVisualStyleBackColor = true;
-            // 
-            // Num11
-            // 
-            this.Num11.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Num11.Location = new System.Drawing.Point(78, 337);
-            this.Num11.Margin = new System.Windows.Forms.Padding(4);
-            this.Num11.Name = "Num11";
-            this.Num11.Size = new System.Drawing.Size(59, 50);
-            this.Num11.TabIndex = 9;
-            this.Num11.Text = "1";
-            this.Num11.UseVisualStyleBackColor = true;
-            // 
-            // Num0
-            // 
-            this.Num0.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Num0.Location = new System.Drawing.Point(78, 414);
-            this.Num0.Margin = new System.Windows.Forms.Padding(4);
-            this.Num0.Name = "Num0";
-            this.Num0.Size = new System.Drawing.Size(149, 50);
-            this.Num0.TabIndex = 12;
-            this.Num0.Text = "0";
-            this.Num0.UseVisualStyleBackColor = true;
-            // 
             // frmCalculadora
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-<<<<<<< Updated upstream
 <<<<<<< Updated upstream
             this.ClientSize = new System.Drawing.Size(445, 447);
             this.Controls.Add(this.btnIgual);
             this.Controls.Add(this.btnPotencia);
             this.Controls.Add(this.btnMod);
 =======
-=======
->>>>>>> Stashed changes
             this.ClientSize = new System.Drawing.Size(558, 530);
             this.Controls.Add(this.Num0);
             this.Controls.Add(this.Num3);
@@ -576,11 +408,7 @@
             this.Controls.Add(this.txtNombre2);
             this.Controls.Add(this.txtNombre1);
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-=======
-            this.Margin = new System.Windows.Forms.Padding(4);
->>>>>>> Stashed changes
 =======
             this.Margin = new System.Windows.Forms.Padding(4);
 >>>>>>> Stashed changes
@@ -620,9 +448,6 @@
         private System.Windows.Forms.Button Num2;
         private System.Windows.Forms.Button Num11;
         private System.Windows.Forms.Button Num0;
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
     }
 }

@@ -153,11 +153,7 @@ namespace Calculadora
         }
 
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
         private void button1_Click(object sender, EventArgs e)
-=======
-        private void lblResultat_Click(object sender, EventArgs e)
->>>>>>> Stashed changes
 =======
         private void lblResultat_Click(object sender, EventArgs e)
 >>>>>>> Stashed changes
@@ -166,11 +162,7 @@ namespace Calculadora
         }
 
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
         private void button3_Click(object sender, EventArgs e)
-=======
-        private void txtResultat_TextChanged(object sender, EventArgs e)
->>>>>>> Stashed changes
 =======
         private void txtResultat_TextChanged(object sender, EventArgs e)
 >>>>>>> Stashed changes
