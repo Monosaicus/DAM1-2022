@@ -55,20 +55,20 @@
             // 
             // txtNombre1
             // 
-            this.txtNombre1.Location = new System.Drawing.Point(149, 40);
+            this.txtNombre1.Location = new System.Drawing.Point(140, 40);
             this.txtNombre1.Margin = new System.Windows.Forms.Padding(4);
             this.txtNombre1.Name = "txtNombre1";
-            this.txtNombre1.Size = new System.Drawing.Size(132, 22);
+            this.txtNombre1.Size = new System.Drawing.Size(126, 22);
             this.txtNombre1.TabIndex = 0;
             this.txtNombre1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtNombre1.Click += new System.EventHandler(this.txtNombre1_GotFocus);
             // 
             // txtNombre2
             // 
-            this.txtNombre2.Location = new System.Drawing.Point(149, 90);
+            this.txtNombre2.Location = new System.Drawing.Point(140, 87);
             this.txtNombre2.Margin = new System.Windows.Forms.Padding(4);
             this.txtNombre2.Name = "txtNombre2";
-            this.txtNombre2.Size = new System.Drawing.Size(132, 22);
+            this.txtNombre2.Size = new System.Drawing.Size(126, 22);
             this.txtNombre2.TabIndex = 1;
             this.txtNombre2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtNombre2.Click += new System.EventHandler(this.txtNombre2_GotFocus);
@@ -143,11 +143,11 @@
             // 
             // txtResultat
             // 
-            this.txtResultat.Location = new System.Drawing.Point(91, 406);
+            this.txtResultat.Location = new System.Drawing.Point(74, 403);
             this.txtResultat.Margin = new System.Windows.Forms.Padding(4);
             this.txtResultat.Name = "txtResultat";
             this.txtResultat.ReadOnly = true;
-            this.txtResultat.Size = new System.Drawing.Size(132, 22);
+            this.txtResultat.Size = new System.Drawing.Size(192, 22);
             this.txtResultat.TabIndex = 19;
             this.txtResultat.TabStop = false;
             this.txtResultat.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -308,7 +308,7 @@
             // button0
             // 
             this.button0.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button0.Location = new System.Drawing.Point(78, 303);
+            this.button0.Location = new System.Drawing.Point(74, 303);
             this.button0.Margin = new System.Windows.Forms.Padding(4);
             this.button0.Name = "button0";
             this.button0.Size = new System.Drawing.Size(125, 50);
