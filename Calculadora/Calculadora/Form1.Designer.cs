@@ -30,14 +30,11 @@
         {
             this.txtNombre1 = new System.Windows.Forms.TextBox();
             this.txtNombre2 = new System.Windows.Forms.TextBox();
-            this.lblNombre1 = new System.Windows.Forms.Label();
-            this.lblNombre2 = new System.Windows.Forms.Label();
             this.btnSumar = new System.Windows.Forms.Button();
             this.btnRestar = new System.Windows.Forms.Button();
             this.btnMultiplicar = new System.Windows.Forms.Button();
             this.btnDividir = new System.Windows.Forms.Button();
             this.txtResultat = new System.Windows.Forms.TextBox();
-            this.lblResultat = new System.Windows.Forms.Label();
             this.btnMod = new System.Windows.Forms.Button();
             this.btnPotencia = new System.Windows.Forms.Button();
             this.btnIgual = new System.Windows.Forms.Button();
@@ -55,43 +52,23 @@
             // 
             // txtNombre1
             // 
-            this.txtNombre1.Location = new System.Drawing.Point(140, 40);
+            this.txtNombre1.Location = new System.Drawing.Point(74, 40);
             this.txtNombre1.Margin = new System.Windows.Forms.Padding(4);
             this.txtNombre1.Name = "txtNombre1";
-            this.txtNombre1.Size = new System.Drawing.Size(126, 22);
+            this.txtNombre1.Size = new System.Drawing.Size(192, 22);
             this.txtNombre1.TabIndex = 0;
             this.txtNombre1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtNombre1.Click += new System.EventHandler(this.txtNombre1_GotFocus);
             // 
             // txtNombre2
             // 
-            this.txtNombre2.Location = new System.Drawing.Point(140, 87);
+            this.txtNombre2.Location = new System.Drawing.Point(74, 87);
             this.txtNombre2.Margin = new System.Windows.Forms.Padding(4);
             this.txtNombre2.Name = "txtNombre2";
-            this.txtNombre2.Size = new System.Drawing.Size(126, 22);
+            this.txtNombre2.Size = new System.Drawing.Size(192, 22);
             this.txtNombre2.TabIndex = 1;
             this.txtNombre2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtNombre2.Click += new System.EventHandler(this.txtNombre2_GotFocus);
-            // 
-            // lblNombre1
-            // 
-            this.lblNombre1.AutoSize = true;
-            this.lblNombre1.Location = new System.Drawing.Point(71, 40);
-            this.lblNombre1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblNombre1.Name = "lblNombre1";
-            this.lblNombre1.Size = new System.Drawing.Size(66, 16);
-            this.lblNombre1.TabIndex = 2;
-            this.lblNombre1.Text = "Nombre1:";
-            // 
-            // lblNombre2
-            // 
-            this.lblNombre2.AutoSize = true;
-            this.lblNombre2.Location = new System.Drawing.Point(71, 90);
-            this.lblNombre2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblNombre2.Name = "lblNombre2";
-            this.lblNombre2.Size = new System.Drawing.Size(66, 16);
-            this.lblNombre2.TabIndex = 3;
-            this.lblNombre2.Text = "Nombre2:";
             // 
             // btnSumar
             // 
@@ -151,16 +128,6 @@
             this.txtResultat.TabIndex = 19;
             this.txtResultat.TabStop = false;
             this.txtResultat.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // lblResultat
-            // 
-            this.lblResultat.AutoSize = true;
-            this.lblResultat.Location = new System.Drawing.Point(13, 406);
-            this.lblResultat.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblResultat.Name = "lblResultat";
-            this.lblResultat.Size = new System.Drawing.Size(59, 16);
-            this.lblResultat.TabIndex = 9;
-            this.lblResultat.Text = "Resultat:";
             // 
             // btnMod
             // 
@@ -335,14 +302,11 @@
             this.Controls.Add(this.btnIgual);
             this.Controls.Add(this.btnPotencia);
             this.Controls.Add(this.btnMod);
-            this.Controls.Add(this.lblResultat);
             this.Controls.Add(this.txtResultat);
             this.Controls.Add(this.btnDividir);
             this.Controls.Add(this.btnMultiplicar);
             this.Controls.Add(this.btnRestar);
             this.Controls.Add(this.btnSumar);
-            this.Controls.Add(this.lblNombre2);
-            this.Controls.Add(this.lblNombre1);
             this.Controls.Add(this.txtNombre2);
             this.Controls.Add(this.txtNombre1);
             this.Margin = new System.Windows.Forms.Padding(4);
@@ -358,14 +322,11 @@
 
         private System.Windows.Forms.TextBox txtNombre1;
         private System.Windows.Forms.TextBox txtNombre2;
-        private System.Windows.Forms.Label lblNombre1;
-        private System.Windows.Forms.Label lblNombre2;
         private System.Windows.Forms.Button btnSumar;
         private System.Windows.Forms.Button btnRestar;
         private System.Windows.Forms.Button btnMultiplicar;
         private System.Windows.Forms.Button btnDividir;
         private System.Windows.Forms.TextBox txtResultat;
-        private System.Windows.Forms.Label lblResultat;
         private System.Windows.Forms.Button btnMod;
         private System.Windows.Forms.Button btnPotencia;
         private System.Windows.Forms.Button btnIgual;

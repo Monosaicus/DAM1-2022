@@ -28,3 +28,13 @@ C:\Users\fflores.dam\Documents\M5\GitHub\DAM1-2022\Calculadora\Calculadora\obj\D
 C:\Users\fflores.dam\Documents\M5\GitHub\DAM1-2022\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.CoreCompileInputs.cache
 C:\Users\fflores.dam\Documents\M5\GitHub\DAM1-2022\Calculadora\Calculadora\obj\Debug\Calculadora.exe
 C:\Users\fflores.dam\Documents\M5\GitHub\DAM1-2022\Calculadora\Calculadora\obj\Debug\Calculadora.pdb
+C:\Users\Nombre\Documents\GitHub\DAM1-2022\Calculadora\Calculadora\bin\Debug\Calculadora.exe.config
+C:\Users\Nombre\Documents\GitHub\DAM1-2022\Calculadora\Calculadora\bin\Debug\Calculadora.exe
+C:\Users\Nombre\Documents\GitHub\DAM1-2022\Calculadora\Calculadora\bin\Debug\Calculadora.pdb
+C:\Users\Nombre\Documents\GitHub\DAM1-2022\Calculadora\Calculadora\obj\Debug\Calculadora.csprojAssemblyReference.cache
+C:\Users\Nombre\Documents\GitHub\DAM1-2022\Calculadora\Calculadora\obj\Debug\Calculadora.frmCalculadora.resources
+C:\Users\Nombre\Documents\GitHub\DAM1-2022\Calculadora\Calculadora\obj\Debug\Calculadora.Properties.Resources.resources
+C:\Users\Nombre\Documents\GitHub\DAM1-2022\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.GenerateResource.cache
+C:\Users\Nombre\Documents\GitHub\DAM1-2022\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.CoreCompileInputs.cache
+C:\Users\Nombre\Documents\GitHub\DAM1-2022\Calculadora\Calculadora\obj\Debug\Calculadora.exe
+C:\Users\Nombre\Documents\GitHub\DAM1-2022\Calculadora\Calculadora\obj\Debug\Calculadora.pdb
