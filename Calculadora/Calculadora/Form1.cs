@@ -13,6 +13,7 @@ namespace Calculadora
     public partial class frmCalculadora : Form
     {
         private Control _focusedControl;
+        private string Operacio;
         public frmCalculadora()
         {
             InitializeComponent();
@@ -64,7 +65,7 @@ namespace Calculadora
         private void btnSumar_Click(object sender, EventArgs e)
         {
             float nombre1, nombre2;
-
+            Operacio = "+";
 
             if (!String.IsNullOrEmpty(txtNombre1.Text)
                 && 
@@ -81,6 +82,7 @@ namespace Calculadora
         private void btnRestar_Click(object sender, EventArgs e)
         {
             float nombre1, nombre2;
+            Operacio = "-";
 
             if (!String.IsNullOrEmpty(txtNombre1.Text)
                 &&
@@ -96,6 +98,7 @@ namespace Calculadora
         private void btnMultiplicar_Click(object sender, EventArgs e)
         {
             float nombre1, nombre2;
+            Operacio = "*";
 
             if (!String.IsNullOrEmpty(txtNombre1.Text)
                 &&
@@ -111,6 +114,7 @@ namespace Calculadora
         private void btnDividir_Click(object sender, EventArgs e)
         {
             float nombre1, nombre2;
+            Operacio = "/";
 
             if (!String.IsNullOrEmpty(txtNombre1.Text)
                 &&
@@ -128,6 +132,7 @@ namespace Calculadora
         private void btnMod_Click(object sender, EventArgs e)
         {
             float nombre1, nombre2;
+            Operacio = "%";
 
             if (!String.IsNullOrEmpty(txtNombre1.Text)
                 &&
@@ -142,6 +147,7 @@ namespace Calculadora
         private void btnExp_Click(object sender, EventArgs e)
         {
             float nombre1, nombre2, resultat=1;
+            Operacio = "^";
 
             if (!String.IsNullOrEmpty(txtNombre1.Text)
                 &&
@@ -154,7 +160,11 @@ namespace Calculadora
                 txtResultat.Text = (resultat).ToString();
             }
         }
-        private void btnSequencia_Click(object sender, EventArgs e)
+        private void btnIgual_Click(object sender, EventArgs e)
+        {
+            Operacio = "";
+        }
+            private void btnSequencia_Click(object sender, EventArgs e)
         {
             // sequencia numèrica que començara per 0 fins nombre1 
             // amb increments de nombre2
