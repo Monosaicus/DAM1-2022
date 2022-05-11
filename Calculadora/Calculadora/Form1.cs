@@ -12,6 +12,7 @@ namespace Calculadora
 {
     public partial class frmCalculadora : Form
     {
+        private Control _focusedControl;
         public frmCalculadora()
         {
             InitializeComponent();
@@ -52,7 +53,14 @@ namespace Calculadora
             //}
 
         }
-
+        private void txtNombre1_GotFocus(object sender, EventArgs e)
+        {
+            _focusedControl = (Control)sender;
+        }
+        private void txtNombre2_GotFocus(object sender, EventArgs e)
+        {
+            _focusedControl = (Control)sender;
+        }
         private void btnSumar_Click(object sender, EventArgs e)
         {
             float nombre1, nombre2;
@@ -151,15 +159,64 @@ namespace Calculadora
 
             }
         }
+        private void ActualitzaTextBox(int Tecla)
+        {
+            float TeclaNum;
+            if (_focusedControl != null)
+            {
+                if (!String.IsNullOrEmpty(_focusedControl.Text))
+                {
+                    TeclaNum = (int.Parse(_focusedControl.Text) * 10) + Tecla;
+                    _focusedControl.Text = TeclaNum.ToString();
+                }
+                else
+                {
+                    TeclaNum = Tecla;
+                    _focusedControl.Text = TeclaNum.ToString();
+                }
+            }
+
+        }
+        private void button0_Click(object sender, EventArgs e)
+        {
+            ActualitzaTextBox(0);
+        }
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            ActualitzaTextBox(1);
         }
-
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ActualitzaTextBox(2);
+        }
         private void button3_Click(object sender, EventArgs e)
         {
-
+            ActualitzaTextBox(3);
+        }
+        private void button4_Click(object sender, EventArgs e)
+        {
+            ActualitzaTextBox(4);
+        }
+        private void button5_Click(object sender, EventArgs e)
+        {
+            ActualitzaTextBox(5);
+        }
+        private void button6_Click(object sender, EventArgs e)
+        {
+            ActualitzaTextBox(6);
+        }
+        private void button7_Click(object sender, EventArgs e)
+        {
+            ActualitzaTextBox(7);
+        }
+        private void button8_Click(object sender, EventArgs e)
+        {
+            ActualitzaTextBox(8);
+        }
+        private void button9_Click(object sender, EventArgs e)
+        {
+            ActualitzaTextBox(9);
         }
     }
 }
