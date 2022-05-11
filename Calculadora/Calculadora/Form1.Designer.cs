@@ -48,6 +48,8 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button0 = new System.Windows.Forms.Button();
+            this.btnClear = new System.Windows.Forms.Button();
+            this.btnCanviSigne = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtNombre1
@@ -275,20 +277,46 @@
             // button0
             // 
             this.button0.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button0.Location = new System.Drawing.Point(74, 303);
+            this.button0.Location = new System.Drawing.Point(140, 303);
             this.button0.Margin = new System.Windows.Forms.Padding(4);
             this.button0.Name = "button0";
-            this.button0.Size = new System.Drawing.Size(125, 50);
+            this.button0.Size = new System.Drawing.Size(59, 50);
             this.button0.TabIndex = 11;
             this.button0.Text = "0";
             this.button0.UseVisualStyleBackColor = true;
             this.button0.Click += new System.EventHandler(this.button0_Click);
+            // 
+            // btnClear
+            // 
+            this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClear.Location = new System.Drawing.Point(207, 303);
+            this.btnClear.Margin = new System.Windows.Forms.Padding(4);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(59, 50);
+            this.btnClear.TabIndex = 20;
+            this.btnClear.Text = "C";
+            this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
+            // 
+            // btnCanviSigne
+            // 
+            this.btnCanviSigne.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCanviSigne.Location = new System.Drawing.Point(74, 303);
+            this.btnCanviSigne.Margin = new System.Windows.Forms.Padding(4);
+            this.btnCanviSigne.Name = "btnCanviSigne";
+            this.btnCanviSigne.Size = new System.Drawing.Size(59, 50);
+            this.btnCanviSigne.TabIndex = 21;
+            this.btnCanviSigne.Text = "+/-";
+            this.btnCanviSigne.UseVisualStyleBackColor = true;
+            this.btnCanviSigne.Click += new System.EventHandler(this.button10_Click);
             // 
             // frmCalculadora
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(445, 447);
+            this.Controls.Add(this.btnCanviSigne);
+            this.Controls.Add(this.btnClear);
             this.Controls.Add(this.button0);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -340,6 +368,8 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button0;
+        private System.Windows.Forms.Button btnClear;
+        private System.Windows.Forms.Button btnCanviSigne;
     }
 }
 

@@ -38,3 +38,14 @@ C:\Users\Nombre\Documents\GitHub\DAM1-2022\Calculadora\Calculadora\obj\Debug\Cal
 C:\Users\Nombre\Documents\GitHub\DAM1-2022\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.CoreCompileInputs.cache
 C:\Users\Nombre\Documents\GitHub\DAM1-2022\Calculadora\Calculadora\obj\Debug\Calculadora.exe
 C:\Users\Nombre\Documents\GitHub\DAM1-2022\Calculadora\Calculadora\obj\Debug\Calculadora.pdb
+C:\Users\aleix\Documents\GitHub\DAM1-2022\Calculadora\Calculadora\bin\Debug\Calculadora.exe.config
+C:\Users\aleix\Documents\GitHub\DAM1-2022\Calculadora\Calculadora\bin\Debug\Calculadora.exe
+C:\Users\aleix\Documents\GitHub\DAM1-2022\Calculadora\Calculadora\bin\Debug\Calculadora.pdb
+C:\Users\aleix\Documents\GitHub\DAM1-2022\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.AssemblyReference.cache
+C:\Users\aleix\Documents\GitHub\DAM1-2022\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.SuggestedBindingRedirects.cache
+C:\Users\aleix\Documents\GitHub\DAM1-2022\Calculadora\Calculadora\obj\Debug\Calculadora.frmCalculadora.resources
+C:\Users\aleix\Documents\GitHub\DAM1-2022\Calculadora\Calculadora\obj\Debug\Calculadora.Properties.Resources.resources
+C:\Users\aleix\Documents\GitHub\DAM1-2022\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.GenerateResource.cache
+C:\Users\aleix\Documents\GitHub\DAM1-2022\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.CoreCompileInputs.cache
+C:\Users\aleix\Documents\GitHub\DAM1-2022\Calculadora\Calculadora\obj\Debug\Calculadora.exe
+C:\Users\aleix\Documents\GitHub\DAM1-2022\Calculadora\Calculadora\obj\Debug\Calculadora.pdb

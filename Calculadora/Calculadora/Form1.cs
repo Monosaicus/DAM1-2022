@@ -177,6 +177,22 @@ namespace Calculadora
             }
 
         }
+
+        private void canviarSigne()
+        {
+            float TeclaNum;
+            if (_focusedControl != null)
+            {
+                TeclaNum = (float.Parse(_focusedControl.Text) * -1);
+                _focusedControl.Text = TeclaNum.ToString();
+            }
+        }
+
+        private void netejarResultats()
+        {
+            txtResultat.Clear();
+        }
+
         private void button0_Click(object sender, EventArgs e)
         {
             ActualitzaTextBox(0);
@@ -217,6 +233,16 @@ namespace Calculadora
         private void button9_Click(object sender, EventArgs e)
         {
             ActualitzaTextBox(9);
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            netejarResultats();
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            canviarSigne();
         }
     }
 }
