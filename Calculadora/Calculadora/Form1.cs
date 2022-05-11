@@ -92,7 +92,7 @@ namespace Calculadora
                 txtResultat.Text = (nombre1 - nombre2).ToString();
             }
         }
-
+        //Hola soc un comentari
         private void btnMultiplicar_Click(object sender, EventArgs e)
         {
             float nombre1, nombre2;
