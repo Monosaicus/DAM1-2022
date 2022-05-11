@@ -177,7 +177,7 @@ namespace Calculadora
             }
 
         }
-
+        //Canviar signe
         private void canviarSigne()
         {
             float TeclaNum;
