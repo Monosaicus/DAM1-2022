@@ -75,10 +75,10 @@
             // btnSumar
             // 
             this.btnSumar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSumar.Location = new System.Drawing.Point(376, 13);
+            this.btnSumar.Location = new System.Drawing.Point(368, 13);
             this.btnSumar.Margin = new System.Windows.Forms.Padding(4);
             this.btnSumar.Name = "btnSumar";
-            this.btnSumar.Size = new System.Drawing.Size(59, 50);
+            this.btnSumar.Size = new System.Drawing.Size(67, 50);
             this.btnSumar.TabIndex = 12;
             this.btnSumar.Text = "+";
             this.btnSumar.UseVisualStyleBackColor = true;
@@ -87,10 +87,10 @@
             // btnRestar
             // 
             this.btnRestar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRestar.Location = new System.Drawing.Point(376, 71);
+            this.btnRestar.Location = new System.Drawing.Point(368, 71);
             this.btnRestar.Margin = new System.Windows.Forms.Padding(4);
             this.btnRestar.Name = "btnRestar";
-            this.btnRestar.Size = new System.Drawing.Size(59, 50);
+            this.btnRestar.Size = new System.Drawing.Size(67, 50);
             this.btnRestar.TabIndex = 13;
             this.btnRestar.Text = "-";
             this.btnRestar.UseVisualStyleBackColor = true;
@@ -99,11 +99,11 @@
             // btnMultiplicar
             // 
             this.btnMultiplicar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMultiplicar.Location = new System.Drawing.Point(376, 187);
+            this.btnMultiplicar.Location = new System.Drawing.Point(368, 129);
             this.btnMultiplicar.Margin = new System.Windows.Forms.Padding(4);
             this.btnMultiplicar.Name = "btnMultiplicar";
-            this.btnMultiplicar.Size = new System.Drawing.Size(59, 50);
-            this.btnMultiplicar.TabIndex = 15;
+            this.btnMultiplicar.Size = new System.Drawing.Size(67, 50);
+            this.btnMultiplicar.TabIndex = 14;
             this.btnMultiplicar.Text = "*";
             this.btnMultiplicar.UseVisualStyleBackColor = true;
             this.btnMultiplicar.Click += new System.EventHandler(this.btnMultiplicar_Click);
@@ -111,11 +111,11 @@
             // btnDividir
             // 
             this.btnDividir.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDividir.Location = new System.Drawing.Point(376, 129);
+            this.btnDividir.Location = new System.Drawing.Point(368, 187);
             this.btnDividir.Margin = new System.Windows.Forms.Padding(4);
             this.btnDividir.Name = "btnDividir";
-            this.btnDividir.Size = new System.Drawing.Size(59, 50);
-            this.btnDividir.TabIndex = 14;
+            this.btnDividir.Size = new System.Drawing.Size(67, 50);
+            this.btnDividir.TabIndex = 15;
             this.btnDividir.Text = "/";
             this.btnDividir.UseVisualStyleBackColor = true;
             this.btnDividir.Click += new System.EventHandler(this.btnDividir_Click);
@@ -134,25 +134,26 @@
             // btnMod
             // 
             this.btnMod.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMod.Location = new System.Drawing.Point(376, 303);
+            this.btnMod.Location = new System.Drawing.Point(368, 303);
             this.btnMod.Margin = new System.Windows.Forms.Padding(4);
             this.btnMod.Name = "btnMod";
-            this.btnMod.Size = new System.Drawing.Size(59, 50);
+            this.btnMod.Size = new System.Drawing.Size(67, 50);
             this.btnMod.TabIndex = 17;
             this.btnMod.Text = "MOD";
             this.btnMod.UseVisualStyleBackColor = true;
-            this.btnMod.Click += new System.EventHandler(this.button1_Click);
+            this.btnMod.Click += new System.EventHandler(this.btnMod_Click);
             // 
             // btnPotencia
             // 
             this.btnPotencia.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPotencia.Location = new System.Drawing.Point(376, 245);
+            this.btnPotencia.Location = new System.Drawing.Point(368, 245);
             this.btnPotencia.Margin = new System.Windows.Forms.Padding(4);
             this.btnPotencia.Name = "btnPotencia";
-            this.btnPotencia.Size = new System.Drawing.Size(59, 50);
+            this.btnPotencia.Size = new System.Drawing.Size(67, 50);
             this.btnPotencia.TabIndex = 16;
             this.btnPotencia.Text = "^";
             this.btnPotencia.UseVisualStyleBackColor = true;
+            this.btnPotencia.Click += new System.EventHandler(this.btnExp_Click);
             // 
             // btnIgual
             // 
@@ -164,7 +165,6 @@
             this.btnIgual.TabIndex = 18;
             this.btnIgual.Text = "=";
             this.btnIgual.UseVisualStyleBackColor = true;
-            this.btnIgual.Click += new System.EventHandler(this.button3_Click);
             // 
             // button7
             // 

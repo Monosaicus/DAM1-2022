@@ -125,7 +125,35 @@ namespace Calculadora
             }
 
         }
+        private void btnMod_Click(object sender, EventArgs e)
+        {
+            float nombre1, nombre2;
 
+            if (!String.IsNullOrEmpty(txtNombre1.Text)
+                &&
+                !String.IsNullOrEmpty(txtNombre2.Text))
+            {   // Restar 
+                nombre1 = float.Parse(txtNombre1.Text);
+                nombre2 = float.Parse(txtNombre2.Text);
+
+                txtResultat.Text = (nombre1 % nombre2).ToString();
+            }
+        }
+        private void btnExp_Click(object sender, EventArgs e)
+        {
+            float nombre1, nombre2, resultat=1;
+
+            if (!String.IsNullOrEmpty(txtNombre1.Text)
+                &&
+                !String.IsNullOrEmpty(txtNombre2.Text))
+            {   // Restar 
+                nombre1 = float.Parse(txtNombre1.Text);
+                nombre2 = float.Parse(txtNombre2.Text);
+                for (int i = 1; i <= nombre2; i++)
+                    resultat *= nombre1;
+                txtResultat.Text = (resultat).ToString();
+            }
+        }
         private void btnSequencia_Click(object sender, EventArgs e)
         {
             // sequencia numèrica que començara per 0 fins nombre1 
